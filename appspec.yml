@@ -15,7 +15,7 @@ hooks:
     - location: scripts/stop_server
       timeout: 300
       runas: root
- ValidateService:
+  ValidateService:
     - location: scripts/service_health
       timeout: 300
       runas: root
