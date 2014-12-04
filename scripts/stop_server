@@ -1,6 +1,6 @@
 #!/bin/bash
 isExistApp = `pgrep httpd`
 if [[ -n  $isExistApp ]]; then
-    sleep 350s        
+    service httpd stop        
 fi
 
